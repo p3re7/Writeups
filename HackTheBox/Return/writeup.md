@@ -127,7 +127,7 @@ Con la sesión de meterpreter aún no tenemos todos los privilegios necesarios, 
 ps
 ```
 ```bash 
-migrate <pid_proceso_ntauthority\system>
+migrate 3236
 ```
 ```bash 
 shell
