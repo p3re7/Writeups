@@ -8,7 +8,7 @@
 
 ## 1. Información Inicial
 - **Objetivo:** Obtener las tres llaves mediante pruebas de penetración.  
-- **Herramientas iniciales:** `nmap`, `gobuster`, `wget`, `hydra`, `reverse shell`, `gtfobins`, `crackstation`, `netcat`, `find`.
+- **Herramientas iniciales:** `nmap`, `netcat`, `evil-winrm`, `msfconsole`, `msfvenom`, `meterpreter`.
 
 ---
 
