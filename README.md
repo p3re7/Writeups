@@ -23,6 +23,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
     - Return
 - TryHackMe
     - Mr Robot CTF
+    - Pickle Rick
 
 ---
 
@@ -45,4 +46,3 @@ No se debe aplicar ninguna técnica mostrada en sistemas sin autorización. Este
 
 - [HackTheBox](https://www.hackthebox.eu)
 - [TryHackMe](https://tryhackme.com)
-- [GTFOBins](https://gtfobins.github.io/)
