@@ -20,16 +20,9 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 ## Estructura del repositorio
 
 - HackTheBox/
-    - Ignite/
-        - writeup.md
-        - screenshots/
-    - OtraMaquina/
-        - writeup.md
-        - screenshots/
+    - Return/
 - TryHackMe/
-    - RoomName/
-        - writeup.md
-        - screenshots/
+    - Mr Robot CTF/
 
 ---
 
