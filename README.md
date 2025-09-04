@@ -1,3 +1,9 @@
+     ___ /         ___  |  
+ __ \  _ \   __| _ \   /   
+ |   |  ) | |    __/  /    
+ .__/____/ _|  \___|_/     
+_|                  _____| 
+
 # Writeups HackTheBox & TryHackMe
 
 Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada writeup documenta los pasos seguidos desde el reconocimiento hasta la escalada de privilegios, incluyendo comandos, capturas de pantalla y comentarios explicativos.
