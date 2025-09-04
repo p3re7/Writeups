@@ -19,10 +19,10 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 
 ## Estructura del repositorio
 
-- HackTheBox/
-    - Return/
-- TryHackMe/
-    - Mr Robot CTF/
+- HackTheBox
+    - Return
+- TryHackMe
+    - Mr Robot CTF
 
 ---
 
