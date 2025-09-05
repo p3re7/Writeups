@@ -20,12 +20,12 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 ## Estructura del repositorio
 
 - HackTheBox
-    - Return 🟢
+    - Return 🟢 [Windows]
 - TryHackMe
     - Tomghost 🟢
     - Pickle Rick 🟢
     - Mr Robot CTF 🟡
-    - Blog 🟡
+    - Blog 🟡 [Windows]
 
 ---
 
