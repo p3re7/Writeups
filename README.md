@@ -22,6 +22,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 - HackTheBox
     - Return 🟢
 - TryHackMe
+    - Tomghost 🟢
     - Pickle Rick 🟢
     - Mr Robot CTF 🟡
     - Blog 🟡
