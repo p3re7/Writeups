@@ -21,6 +21,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 
 - HackTheBox
     - Return 🟢 [Windows]
+    - Active 🟢 [Windows]
 - TryHackMe
     - Tomghost 🟢 [Linux]
     - Pickle Rick 🟢 [Linux]
