@@ -20,11 +20,11 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 ## Estructura del repositorio
 
 - HackTheBox
-    - Return [Easy]
+    - Return 🟢
 - TryHackMe
-    - Mr Robot CTF [Medium]
-    - Blog [Medium]
-    - Pickle Rick [Easy]
+    - Mr Robot CTF 🟡
+    - Blog 🟡
+    - Pickle Rick 🟢
 
 ---
 
