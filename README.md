@@ -22,9 +22,9 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 - HackTheBox
     - Return 🟢 [Windows]
 - TryHackMe
-    - Tomghost 🟢
-    - Pickle Rick 🟢
-    - Mr Robot CTF 🟡
+    - Tomghost 🟢 [Linux]
+    - Pickle Rick 🟢 [Linux]
+    - Mr Robot CTF 🟡 [Linux]
     - Blog 🟡 [Windows]
 
 ---
