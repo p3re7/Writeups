@@ -20,7 +20,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 ## Estructura del repositorio
 
 - HackTheBox
-    - Return <span style="color:green">Easy</span> 🟢 [Windows]
+    - Return <span style="color🟩">Easy</span> 🟢 [Windows]
     - Active 🟢 [Windows]
 - TryHackMe
     - Tomghost 🟢 [Linux]
