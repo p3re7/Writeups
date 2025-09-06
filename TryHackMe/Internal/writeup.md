@@ -8,7 +8,7 @@
 
 ## 1. Información Inicial
 - **Objetivo:** Obtener las dos banderas tanto del usuario como de root.  
-- **Herramientas iniciales:** `nmap`, `gobuster`, `wget`, `hydra`, `reverse shell`, `gtfobins`, `crackstation`, `netcat`, `find`.
+- **Herramientas iniciales:** `nmap`, `gobuster`, `wpscan`, `hydra`, `reverse shell`, `netcat`, `msfvenom`, `metasploit`, `ssh`.
 
 ---
 
@@ -201,3 +201,4 @@ ssh root@internal.thm
 ```
 
 ![Obtención de segunda bandera en el directorio /root](screenshots/30.root-txt.png)
+
