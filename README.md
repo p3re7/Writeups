@@ -20,7 +20,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 ## Estructura del repositorio
 
 - HackTheBox
-    - Return ![Rojo](https://img.shields.io/badge/Etiqueta-Rojo-red) 🟢 [Windows]
+    - Return ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) [Windows]
     - Active 🟢 [Windows]
 - TryHackMe
     - Tomghost 🟢 [Linux]
