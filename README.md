@@ -20,14 +20,14 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 ## Estructura del repositorio
 
 - HackTheBox
-    - Return ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) [Windows]
-    - Active 🟢 [Windows]
+    - Return ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) [Windows]
+    - Active ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) [Windows]
 - TryHackMe
-    - Tomghost 🟢 [Linux]
-    - Pickle Rick 🟢 [Linux]
-    - Mr Robot CTF 🟡 [Linux]
-    - Blog 🟡 [Windows]
-    - Internal 🔴 [Linux]
+    - Tomghost ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) [Linux]
+    - Pickle Rick ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) [Linux]
+    - Mr Robot CTF ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) [Linux]
+    - Blog ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) [Windows]
+    - Internal ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) [Linux]
 
 ---
 
