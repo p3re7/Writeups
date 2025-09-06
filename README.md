@@ -27,6 +27,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
     - Pickle Rick 🟢 [Linux]
     - Mr Robot CTF 🟡 [Linux]
     - Blog 🟡 [Windows]
+    - Internal 🔴 [Linux]
 
 ---
 
