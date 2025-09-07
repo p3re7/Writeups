@@ -43,6 +43,8 @@ wpscan --url http://10.10.158.248/blog/ -e
 
 ![Ejecución de wpscan para análisis del sitio web](screenshots/4.wpsan_user.png)
 
+## 3. Explotación
+
 Hemos descubierto el usuario `admin`, desde el que podemos partir para hacer un ataque de fuerza bruta al panel de inicio de sesión de Wordpress.
 Este ataque puede realizarse con Hydra o con WPScan, pero usaremos la segunda ya que la sintaxis es mucho más simple.
 
@@ -72,6 +74,9 @@ nc -lvnp 1234
 Para establecer la conexión solo nos queda acceder al fichero a través de la URL para que se ejecute.
 
 ![Reverse shell creada en netcat de la máquina local](screenshots/10.netcat_with_shell.png)
+
+
+## 4. Postexplotación
 
 Tras investigar el sistema de la máquina víctima y no encontrar nada a simple vista, vamos a utilizar la herramienta `linpeas`, para buscar algún fichero que nos aporte alguna credencial, ya que no podemos acceder a ningún directorio personal.
 
@@ -201,4 +206,5 @@ ssh root@internal.thm
 ```
 
 ![Obtención de segunda bandera en el directorio /root](screenshots/30.root-txt.png)
+
 
