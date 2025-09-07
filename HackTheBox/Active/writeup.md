@@ -6,13 +6,11 @@
 
 ---
 
-## 1. Información Inicial
+## Información Inicial
 - **Objetivo:** Obtener las dos banderas de usuario y root.  
 - **Herramientas iniciales:** `nmap`, `smbclient`, `smbmap`, `gpp-decrypt`, `hashcat`, `GetUserSPN`, `wmiexec`.
 
 ---
-
-## 2. Reconocimiento y enumeración
 
 Primero realizamos un escaneo básico con `nmap` para identificar los servicios abiertos:
 ```bash 
