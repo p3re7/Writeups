@@ -6,13 +6,11 @@
 
 ---
 
-## 1. Información Inicial
+## Información Inicial
 - **Objetivo:** Obtener las tres recetas mediante pruebas de penetración.  
 - **Herramientas iniciales:** `nmap`, `ssh`, `Metasploit`, `GPG`, `john`, `GTFOBins`.
 
 ---
-
-## 2. Reconocimiento y enumeración
 
 Primero realizamos un escaneo básico con `nmap` para identificar los servicios abiertos:
 ```bash 
@@ -39,9 +37,6 @@ run
 ```
 
 ![Ejecución de exploit para ajp en Metasploit](screenshots/3.msfconsole_run.png)
-
-## 3. Explotación
-
 
 En la opción del fichero a leer dejamos la que venía por defecto y el exploit nos devuelve unas credenciales (`skyfuck:8730281lkjlkjdqlksalks`).
 
@@ -90,8 +85,6 @@ Como resultado obtendremos otra credencial con la que obtendremos mejores permis
 En su directorio personal encontramos la primera bandera, la del usuario.
 
 ![Descifrado del fichero PGP con contraseña obtenida](screenshots/8.user.txt.png)
-
-## 4. Postexplotación
 
 Commo en cada escala de privilegios, el comando más común para ver los privilegios con SUDO que tenemos es `sudo -l`.
 Con este descubrimos que podemos ejecutar /usr/bin/zip con sudo, lo cuál nos facilita el trabajo teniendo solo que buscar en GTFOBins.
