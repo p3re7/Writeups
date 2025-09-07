@@ -6,13 +6,11 @@
 
 ---
 
-## 1. Información Inicial
+## Información Inicial
 - **Objetivo:** Obtener las tres llaves mediante pruebas de penetración.  
 - **Herramientas iniciales:** `nmap`, `netcat`, `evil-winrm`, `msfconsole`, `msfvenom`, `meterpreter`.
 
 ---
-
-## 2. Reconocimiento y enumeración
 
 Primero realizamos un escaneo  con `Nmap` para identificar los servicios abiertos, aunque viendo los puertos 139 y 445 sabemos que se trata de un Active Directory.
 ```bash 
@@ -34,8 +32,6 @@ En el sitio web encontramos un panel de administración para la gestión de impr
 
 ![Vista de Settings en sitio web](screenshots/3.web_settings.png)
 
-## 3. Explotación
-
 Guardaremos el nombre del usuario por si nos puede servir en un futuro, y luego cambiamos la dirección del servidor por nuestra dirección IP. 
 
 De esta manera, recibiremos una petición de conexión y debemos de tener a la escucha `netcat` para recibirla
@@ -56,8 +52,6 @@ evil-winrm -i 110.129.95.241 -u svc-printer -p '1edFg43012!!
 ```
 
 ![Accediendo por Evil-WinRM](screenshots/5.evilwinrm.png)
-
-## 4. Postexplotación
 
 Hemos conseguido acceso a través de la herramienta Evil-WinRM y estamos dentro del sistema, por lo que vamos a comenzar a buscar algún punto vulnerable para escalar privilegios.
 
