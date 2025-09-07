@@ -6,13 +6,11 @@
 
 ---
 
-## 1. Información Inicial
+## Información Inicial
 - **Objetivo:** Obtener las tres llaves mediante pruebas de penetración.  
 - **Herramientas iniciales:** `nmap`, `gobuster`, `wget`, `hydra`, `reverse shell`, `gtfobins`, `crackstation`, `netcat`, `find`.
 
 ---
-
-## 2. Reconocimiento y enumeración
 
 Primero realizamos un escaneo básico con `nmap` para identificar los servicios abiertos:
 ```bash 
@@ -37,8 +35,6 @@ En el resultado de esta herramienta podemos observar sitios interesantes como:
 - /admin
 - /license
 - /robots.txt
-
-## 3. Explotación
 
 Primero vamos a entrar al fichero `robots.txt` (http://10.10.32.21/robots.txt), donde se hayan dos ficheros. El primero es un diccionario (fsocity.dic) y el segundo es la primera llave de la máquina (key-1-of-3.txt)
 
@@ -102,8 +98,6 @@ Desde la dirección http://10.10.32.21/wp-includes/themes/TwentyFifteen/404.php 
 
 ![Ejecución de reverse shell](screenshots/14.ejecutar_reverse_shell.png)
 ![Conexión de víctima a netcat](screenshots/15.conexion_nc.png)
-
-## 4. Postexplotación
 
 Ya tenemos Ya tenemos una reverse shell con la máqunia víctima y entramos como el usuario `daemon`. Este usuario puede ver el directorio personal de robot en el que hay dos ficheros:
 
