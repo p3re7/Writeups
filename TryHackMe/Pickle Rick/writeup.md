@@ -6,13 +6,11 @@
 
 ---
 
-## 1. Información Inicial
+## Información Inicial
 - **Objetivo:** Obtener las tres recetas mediante pruebas de penetración.  
 - **Herramientas iniciales:** `nmap`, `gobuster`, `wget`, `hydra`, `reverse shell`, `gtfobins`, `crackstation`, `netcat`, `find`.
 
 ---
-
-## 2. Reconocimiento y enumeración
 
 Primero realizamos un escaneo básico con `nmap` para identificar los servicios abiertos:
 ```bash 
@@ -35,8 +33,6 @@ Seguimos con la enumeración de directorios con `gobuster` en la que tenemos var
 gobuster dir -u http://10.10.29.248 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x txt,php,html
 ```
 ![Realización de enumeración de directorios con gobuster](screenshots/4.gobuster.png)
-
-## 3. Explotación
 
 Obtenemos una cadena sospechosa, que posiblemente pueda ser la contraseña del usuario encontrado anteriormente:
 `R1ckRul3s:Wubbalubbadubdub`
@@ -81,9 +77,6 @@ cat 'second ingredients'
 ```
 
 ![Segunda receta que encontramos en el directorio rick](screenshots/12.second_key.png)
-
-
-## 4. Postexplotación
 
 Es hora de escalar privilegios y el primer comando que se debe de ejecutar a la hora de elevar privilegios es:
 
