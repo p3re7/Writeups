@@ -23,6 +23,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
     - Return ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
     - Active ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
     - Editor ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
+    - Planning ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
 - TryHackMe
     - Tomghost ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - VulnNet: Roasted ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
