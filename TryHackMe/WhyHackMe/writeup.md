@@ -8,7 +8,7 @@
 
 ## Información Inicial
 - **Objetivo:** Obtener las dos banderas tanto del usuario como del administrador del sistema Linux.
-- **Herramientas iniciales:** `nmap`, `gobuster`, `python3`, `wget`, `netcat`, `ssh`, `crontab`,`linpeas.sh`.
+- **Herramientas iniciales:** `Nmap`, `FTP`, `Gobuster`, `XSS`, `Netcat`, `SSH`, `Iptables`,`Wireshark`.
 
 ---
 
@@ -162,6 +162,7 @@ Ponemos a escuchar nuestro Netcat en el mismo puerto y listo. Obtenemos una Shel
 Teniendo en cuenta sus permisos, con un simple `sudo su` accedemos a la cuenta de administrador y con ella a la segunda bandera.
 
 ![Escala de privilegios sencilla y obtención de la segunda bandera](screenshots/22.root.txt.png)
+
 
 
 
