@@ -7,7 +7,7 @@
 ---
 
 ## Información Inicial
-- **Objetivo:** Obtener las dos banderas tanto del usuario como del administrador de Active Directory.  
+- **Objetivo:** Obtener las dos banderas tanto del usuario como del administrador del sistema Linux.  
 - **Herramientas iniciales:** `nmap`, `gobuster`, `python3`, `wget`, `netcat`, `ssh`, `crontab`,`linpeas.sh`.
 
 ---
@@ -154,3 +154,4 @@ Símplemente nos queda ejecutar la tarea manualmente y buscar el fichero flag.tx
 
 ![Crontab UI con la instrucción ingresada para ejecutarla](screenshots/17.crontab_ui.png)
 ![Obtención de la segunda bandera después de la ejecución de la tarea crontab](screenshots/18.flag.txt.png)
+
