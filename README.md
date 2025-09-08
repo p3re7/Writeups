@@ -30,6 +30,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
     - Pickle Rick ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - Mr Robot CTF ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - Blog ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
+    - WhyHackMe ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - Internal ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
 
 ---
