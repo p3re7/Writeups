@@ -32,6 +32,7 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
     - Blog ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
     - WhyHackMe ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - Internal ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
+    - Year of the Fox ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
 
 ---
 
