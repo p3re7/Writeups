@@ -19,11 +19,6 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
 
 ## Estructura del repositorio
 
-- HackTheBox
-    - Return ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
-    - Active ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
-    - Editor ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
-    - Planning ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
 - TryHackMe
     - Tomghost ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - VulnNet: Roasted ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
@@ -33,6 +28,13 @@ Este repositorio contiene writeups de máquinas de HackTheBox y TryHackMe. Cada 
     - WhyHackMe ![Dificultad](https://img.shields.io/badge/Dificultad-Medium-yellow) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - Internal ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
     - Year of the Fox ![Dificultad](https://img.shields.io/badge/Dificultad-Hard-red) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
+      
+- HackTheBox
+    - Return ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
+    - Active ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Windows](https://img.shields.io/badge/OS-Windows-blue)
+    - Editor ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
+    - Planning ![Dificultad](https://img.shields.io/badge/Dificultad-Easy-green) ![Linux](https://img.shields.io/badge/OS-Linux-purple)
+
 
 ---
 
